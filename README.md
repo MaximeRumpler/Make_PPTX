@@ -44,7 +44,7 @@ Then just ask, in your own words:
 
 ```text
 Make a 10-slide deck from this report for the board.
-Fais-moi une présentation de 8 slides à partir de ces notes.
+Make an 8-slide deck in French from these notes.
 ```
 
 * * *
