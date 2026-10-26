@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Make_PPTX</title>
+  <desc id="d">Three agent skills: form, look and brand. From your notes to a finished, branded deck.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C2333"/>
+      <stop offset="1" stop-color="#121826"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+    <clipPath id="slide"><rect x="0" y="0" width="160" height="90" rx="6"/></clipPath>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect x="48" y="48" width="6" height="64" rx="3" fill="url(#acc)"/>
+
+  <text x="72" y="92" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Make_PPTX</text>
+  <text x="72" y="140" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#9AA5B8">From your notes to a finished, branded deck.</text>
+
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <rect x="72" y="176" width="110" height="34" rx="17" fill="none" stroke="#10B981" stroke-width="1.5"/>
+    <text x="127" y="198" text-anchor="middle" fill="#34D399">FORM</text>
+    <rect x="196" y="176" width="110" height="34" rx="17" fill="none" stroke="#3B4660" stroke-width="1.5"/>
+    <text x="251" y="198" text-anchor="middle" fill="#9AA5B8">LOOK</text>
+    <rect x="320" y="176" width="110" height="34" rx="17" fill="none" stroke="#3B4660" stroke-width="1.5"/>
+    <text x="375" y="198" text-anchor="middle" fill="#9AA5B8">BRAND</text>
+  </g>
+
+  <!-- the same slide, three steps: clean, styled, branded -->
+  <g transform="translate(600 104)">
+    <!-- 1 form -->
+    <rect x="0" y="0" width="160" height="90" rx="6" fill="#FFFFFF"/>
+    <rect x="12" y="12" width="74" height="8" rx="2" fill="#111111"/>
+    <rect x="12" y="26" width="50" height="5" rx="2" fill="#D0D0D0"/>
+    <rect x="12" y="35" width="60" height="5" rx="2" fill="#D0D0D0"/>
+    <rect x="98" y="52" width="10" height="26" fill="#1F1F1F"/>
+    <rect x="112" y="40" width="10" height="38" fill="#8C8C8C"/>
+    <rect x="126" y="30" width="10" height="48" fill="#1F1F1F"/>
+    <rect x="140" y="46" width="10" height="32" fill="#B3B3B3"/>
+    <path d="M172 45 h20 m-7 -6 l7 6 l-7 6" fill="none" stroke="#3B4660" stroke-width="2"/>
+
+    <!-- 2 look -->
+    <g transform="translate(204 0)">
+      <rect x="0" y="0" width="160" height="90" rx="6" fill="#F3F1EC"/>
+      <circle cx="152" cy="6" r="24" fill="#DCDAD3" clip-path="url(#slide)"/>
+      <rect x="12" y="12" width="74" height="8" rx="4" fill="#2B2B2B"/>
+      <rect x="12" y="26" width="50" height="5" rx="2.5" fill="#C8C8C2"/>
+      <g filter="url(#sh)">
+        <rect x="12" y="44" width="40" height="34" rx="7" fill="#FFFFFF"/>
+        <rect x="60" y="44" width="40" height="34" rx="7" fill="#FFFFFF"/>
+        <rect x="108" y="44" width="40" height="34" rx="7" fill="#FFFFFF"/>
+      </g>
+      <circle cx="22" cy="54" r="4" fill="#595959"/>
+      <circle cx="70" cy="54" r="4" fill="#8C8C8C"/>
+      <circle cx="118" cy="54" r="4" fill="#B3B3B3"/>
+      <path d="M172 45 h20 m-7 -6 l7 6 l-7 6" fill="none" stroke="#3B4660" stroke-width="2"/>
+    </g>
+
+    <!-- 3 brand -->
+    <g transform="translate(408 0)">
+      <rect x="0" y="0" width="160" height="90" rx="6" fill="#F3F1EC"/>
+      <circle cx="152" cy="6" r="24" fill="#C9D6E3" clip-path="url(#slide)"/>
+      <rect x="12" y="12" width="74" height="8" rx="4" fill="#0F4C81"/>
+      <rect x="12" y="26" width="50" height="5" rx="2.5" fill="#A9C1D9"/>
+      <g filter="url(#sh)">
+        <rect x="12" y="44" width="40" height="34" rx="7" fill="#FFFFFF"/>
+        <rect x="60" y="44" width="40" height="34" rx="7" fill="#FFFFFF"/>
+        <rect x="108" y="44" width="40" height="34" rx="7" fill="#FFFFFF"/>
+      </g>
+      <circle cx="22" cy="54" r="4" fill="#0F4C81"/>
+      <circle cx="70" cy="54" r="4" fill="#5B8DB8"/>
+      <circle cx="118" cy="54" r="4" fill="#F2A541"/>
+    </g>
+  </g>
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#6F7C95" text-anchor="middle">
+    <text x="680" y="218">Make_Clean</text>
+    <text x="884" y="218">Make_Style</text>
+    <text x="1088" y="218">Make_Colors</text>
+  </g>
+</svg>

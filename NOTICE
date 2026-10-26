@@ -1,0 +1,13 @@
+Make PPTX
+Copyright (c) 2026 Maxime Rumpler
+
+This repository presents the Make PPTX set of agent skills (Make_Clean_PPTX,
+Make_Style_PPTX, Make_Colors_PPTX). Its content is licensed under the European
+Union Public Licence v. 1.2 (EUPL-1.2), see LICENSE. Each skill has its own
+repository, licence and NOTICE.
+
+YOUR PRESENTATIONS ARE YOURS
+----------------------------
+Presentations, themes, styles and any other output that you create with the
+Make PPTX skills are not subject to the obligations of the EUPL. You may use,
+modify, distribute and license them as you wish, with no attribution required.
