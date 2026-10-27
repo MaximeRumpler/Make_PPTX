@@ -8,10 +8,6 @@
 [![Skills](https://img.shields.io/badge/Skills-3-10B981?style=flat-square&labelColor=1C2333)](#the-three-skills)
 [![Gallery](https://img.shields.io/badge/Gallery-122_slides-10B981?style=flat-square&labelColor=1C2333)](https://maximerumpler.github.io/Make_Clean_PPTX/)
 <br>
-[![Accessibility: optional](https://img.shields.io/badge/Accessibility-optional-10B981?style=flat-square&labelColor=1C2333)](docs/get-started.md#optional-checks)
-[![Confidential mode](https://img.shields.io/badge/Confidential_mode-structure_only-10B981?style=flat-square&labelColor=1C2333)](docs/private-mode.md)
-[![Works offline](https://img.shields.io/badge/Works-offline-10B981?style=flat-square&labelColor=1C2333)](docs/private-mode.md#offline-use)
-[![EN · FR](https://img.shields.io/badge/Languages-EN_%C2%B7_FR-10B981?style=flat-square&labelColor=1C2333)](docs/get-started.md#4-requests-to-copy)
 
 </div>
 
