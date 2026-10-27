@@ -168,4 +168,4 @@ That should not happen. Tell the assistant which slide, and ask it to remove any
 Apply your company's PowerPoint theme to the deck (*Design → Themes* in PowerPoint): every colour and font follows it. Two more skills, Make_Style_PPTX and Make_Colors_PPTX, are in preparation for looks and brands.
 
 **Still stuck?**
-Open an issue on [Make_Clean_PPTX](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues) with your assistant, your system, what you asked and the message you got.
+Open an issue on [Make_Clean_PPTX](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues/new/choose) and pick the *It didn't work* form. It asks for your assistant, your system, what you asked and the message you got.

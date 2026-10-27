@@ -2,7 +2,7 @@
 
 [![Make_PPTX](docs/banner.svg)](https://github.com/MaximeRumpler/Make_PPTX)
 
-*From your content, first Make_Clean, then add your style and your colours.*
+*Start with Make Clean for the structure. Add a style and your brand colours when you need them.*
 
 [![License](https://img.shields.io/badge/License-EUPL--1.2-10B981?style=flat-square&labelColor=1C2333)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-3-10B981?style=flat-square&labelColor=1C2333)](#the-three-skills)
@@ -14,7 +14,7 @@
 
 ## What it is
 
-Make PPTX is a set of three *skills*, instructions and tools that teach an AI assistant such as Claude or Codex to make presentations. You give it your notes; you get back a PowerPoint deck that looks designed, not generated.
+Make PPTX is a set of three *skills*, instructions and tools that teach an AI assistant such as Claude or Codex to make presentations. You give it your notes; you get back a PowerPoint deck built from tested slide designs and checked before delivery.
 
 Each skill does one job, and you only use the ones you need:
 
@@ -42,6 +42,8 @@ Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Cod
 
 **[Get started](docs/get-started.md)**: install for your assistant, check that it works, what to give it, the quick choices it asks about, and answers to common problems. For the best first deck, fill in the [brief template](docs/brief-template.md).
 
+Something did not work? [Open an issue](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues/new/choose) with the *It didn't work* form: no technical knowledge needed.
+
 Then just ask, in your own words, and paste or attach your content:
 
 ```text
@@ -59,15 +61,15 @@ Make a 5-slide summary of this document as a LibreOffice .odp file, with speaker
 
 ## Principles
 
-| **Your content stays yours** | **Designed, not guessed** | **Easy for everyone** |
+| **Your content stays yours** | **Tested slides, checked output** | **Easy for everyone** |
 |:---|:---|:---|
-| No invented figures, quotes or names. The decks you make are yours, with no obligation. | Slides come from tested libraries, then are checked for overflow, density and readability. | Plain requests in English or French, a short install, clear messages when something is missing. |
+| No invented figures, quotes or names. You own the decks you make. | Slides come from tested libraries, then are checked for overflow, density and readability. | Plain requests in English or French, a short install, clear messages when something is missing. |
 
 * * *
 
 ## License
 
-[EUPL-1.2](LICENSE), the open source licence of the European Union: free to use; if you share an improved version, share it under the same licence. **The presentations you make are yours**, with no obligation ([NOTICE](NOTICE)).
+[EUPL-1.2](LICENSE), the open source licence of the European Union: free to use; if you share an improved version, share it under the same licence. **You own the decks you make.** The EUPL does not apply to them and no attribution is required ([NOTICE](NOTICE)).
 
 <div align="center">
 
