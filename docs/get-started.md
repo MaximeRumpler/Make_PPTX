@@ -126,16 +126,27 @@ Example deck made from a page of notes: [download it](https://github.com/MaximeR
 
 ## 5. The quick choices it asks about
 
-Before it starts, the skill may send one short message with a few choices. Reply with the letters (for example `1a 2a 3a 4a`) or in plain words. Every choice has a default, and **the defaults add nothing**: a normal PowerPoint file, no label, no extra steps. If you already said what you want, it does not ask.
+Before it starts, the skill may send one short message with four choices. Reply with the letters (for example `1a 2a 3a 4a`) or in plain words. **Answering is optional**: every choice has a default, and the defaults add nothing (a normal PowerPoint file, no label, no extra steps). If you already said what you want, it does not ask.
 
 | **Choice** | **Options** | **What changes** |
 |:---|:---|:---|
-| **Format** | PowerPoint `.pptx` (default), LibreOffice `.odp`, or both | The file you get. Keynote and Google Slides open the `.pptx`. |
-| **Confidentiality** | No label (default), internal, confidential, or "I can't share the real content" | *Internal* or *Confidential* is written in the slide footers. With *confidential*, the skill uses only the icons it carries and searches nothing online, since a search would reveal the topic. If you cannot share the content, you get an empty skeleton with instructions in each box, to fill in on your own computer. |
+| **Format** | PowerPoint `.pptx` (default), LibreOffice `.odp`, or both | The file you get; Keynote and Google Slides open the `.pptx`. |
+| **Confidentiality** | No label (default), internal, confidential, or "I can't share the real content" | The label in the slide footers, and with *confidential* no online search that would reveal the topic; if you cannot share the content, you get a skeleton to fill in yourself ([Private mode](private-mode.md)). |
 | **Length** | About 8 slides (default), shorter, or longer | The number of slides. |
-| **Accessibility** | Standard (default) or extra care | Every deck already gets readable contrast, clear titles and a language tag. *Extra care* adds descriptions to images, labels that do not rely on colour alone, and a short note of what to check by hand. |
+| **Accessibility** | Standard (default) or extra care | Every deck gets readable contrast, clear titles and a language tag; *extra care* adds image descriptions, labels that do not rely on colour alone and a note of what to check by hand. |
 
-These options help you prepare a deck. They are not a certification: the skill never calls a deck "compliant". If you need a formal check against an accessibility standard, ask for it separately.
+### Optional checks
+
+None of these runs unless you ask for it. Add the words in the first column to your request.
+
+| **Ask for** | **What you get** | **When to use it** |
+|:---|:---|:---|
+| Accessibility extra care | Image descriptions, chart values in the speaker notes, a contrast check of every text, a note of what to check by hand | Decks shared widely, read on screen readers, or for an audience that asked for it |
+| A confidentiality label | *Internal* or *Confidential* in the footers, no online searches, file properties kept to the title | Decks that stay inside your organisation |
+| A clean copy for external sharing | A list of what travels with the file (speaker notes, author, other file properties), and a copy without what you choose to remove | Decks sent to clients, partners or the public |
+| A formal standard | A separate review against the accessibility standard you name, with what to fix or check by hand | Only when a contract or policy names a standard |
+
+These options help you prepare a deck. They are not a certification: the skill never calls a deck "compliant" or "certified".
 
 * * *
 
@@ -167,6 +178,9 @@ That should not happen. Tell the assistant which slide, and ask it to remove any
 
 **I want other colours, fonts or a different look.**
 Attach your company's theme or template (`.thmx`, `.potx` or a branded `.pptx`) and your logo, and ask for them: every colour and font follows the theme, and the assistant warns you if some text becomes hard to read. You can also apply a theme afterwards in PowerPoint (*Design → Themes*). Two more skills, Make_Style_PPTX (other looks) and Make_Colors_PPTX (a theme built from your brand guidelines or website), are in preparation.
+
+**My content is confidential. Can I still use the skill?**
+Yes: give only the structure of the deck and type the content yourself afterwards. See [Private mode](private-mode.md), which also explains offline use.
 
 **Still stuck?**
 Open an issue on [Make_Clean_PPTX](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues/new/choose) and pick the *It didn't work* form. It asks for your assistant, your system, what you asked and the message you got.
