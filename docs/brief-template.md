@@ -1,5 +1,7 @@
 # Brief template
 
+**Never paste secrets** (passwords, access keys, other people's personal data). For content you cannot share, give only the structure: see [Private mode](private-mode.md).
+
 Fill in what you know, delete the rest, and paste it into your assistant with your notes or files. Every line is optional: the skill asks about what matters and picks sensible defaults for the rest. A filled brief simply gets you the right deck on the first try.
 
 [Get started](get-started.md) explains how to install the skill and what each choice changes.
