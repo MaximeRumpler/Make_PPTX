@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/License-EUPL--1.2-10B981?style=flat-square&labelColor=1C2333)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-3-10B981?style=flat-square&labelColor=1C2333)](#the-three-skills)
-[![Gallery](https://img.shields.io/badge/Gallery-114_slides-10B981?style=flat-square&labelColor=1C2333)](https://maximerumpler.github.io/Make_Clean_PPTX/)
+[![Gallery](https://img.shields.io/badge/Gallery-122_slides-10B981?style=flat-square&labelColor=1C2333)](https://maximerumpler.github.io/Make_Clean_PPTX/)
 
 </div>
 
@@ -29,22 +29,30 @@ your notes  →  Make_Clean  →  Make_Style  →  Make_Colors  →  your deck
 
 | **Make_Clean_PPTX** | **Make_Style_PPTX** | **Make_Colors_PPTX** |
 |:---|:---|:---|
-| **Form.** One message per slide, a matching design and chart from a library of 54 layouts and 60 visuals, checked before delivery. Black, grey and white. | **Look.** The same deck in another style: editorial, organic, geometric, tech, soft. Your content and layout stay as they are. | **Brand.** Your colours, fonts and logo, taken from your brand guidelines, your website or an example file, with readable contrast. |
+| **Form.** One message per slide, a matching design and chart from a library of 54 layouts and 68 visuals, checked before delivery. Black, grey and white. | **Look.** The same deck in another style: editorial, organic, geometric, tech, soft. Your content and layout stay as they are. | **Brand.** Your colours, fonts and logo, taken from your brand guidelines, your website or an example file, with readable contrast. |
 | [**Available**](https://github.com/MaximeRumpler/Make_Clean_PPTX) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | In preparation | In preparation |
 
 **Start with Make_Clean_PPTX**: it is all you need for a clean, professional deck, and the other two build on it.
 
 * * *
 
-## Install
+## Get started
 
-Make_Clean_PPTX installs in one step in Claude Code, Claude.ai, Claude desktop and other AI assistants, on Windows, macOS and Linux: see [its install section](https://github.com/MaximeRumpler/Make_Clean_PPTX#install). The other skills will install the same way.
+Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI assistants, on Windows, macOS and Linux. In Claude.ai and Claude desktop, also turn on *Code execution and file creation*.
 
-Then just ask, in your own words:
+**[Get started](docs/get-started.md)**: install for your assistant, check that it works, what to give it, the quick choices it asks about, and answers to common problems. For the best first deck, fill in the [brief template](docs/brief-template.md).
+
+Then just ask, in your own words, and paste or attach your content:
 
 ```text
 Make a 10-slide deck from this report for the board.
 Make an 8-slide deck in French from these notes.
+Make a 12-slide pitch deck from these notes: problem, solution, market, traction, team, ask.
+Make a project review deck from this status report: progress, risks, next steps.
+Make a workshop deck from this agenda, one slide per exercise.
+Turn this table of figures into 6 slides with charts.
+Review my-deck.pptx and make it look professional. Keep my content.
+Make a 5-slide summary of this document as a LibreOffice .odp file, with speaker notes.
 ```
 
 * * *
@@ -53,7 +61,7 @@ Make an 8-slide deck in French from these notes.
 
 | **Your content stays yours** | **Designed, not guessed** | **Easy for everyone** |
 |:---|:---|:---|
-| No invented figures, quotes or names. The decks you make are yours, with no obligation. | Slides come from tested libraries, then are checked for overflow, density and readability. | Plain requests in English or French, one-step install, clear messages when something is missing. |
+| No invented figures, quotes or names. The decks you make are yours, with no obligation. | Slides come from tested libraries, then are checked for overflow, density and readability. | Plain requests in English or French, a short install, clear messages when something is missing. |
 
 * * *
 
