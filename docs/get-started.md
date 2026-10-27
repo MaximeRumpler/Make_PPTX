@@ -78,7 +78,7 @@ Paste the text into the chat or attach the file. The more of your own content it
 - **Invent figures, quotes or names.** If a slide needs a number you did not give, it picks a text slide instead, or asks you. Check any figure it flags in its final message.
 - **Write the deck from a topic alone.** With only "a deck about our new product", it asks for the key points rather than making them up.
 - **Overwrite your file.** When it reviews a deck, it saves the new one next to it, as `<name>-clean.pptx`.
-- **Apply your brand.** The slides are black, grey and white. Apply your company's PowerPoint theme (*Design → Themes*) and they switch to your colours and fonts.
+- **Make up your brand.** The slides are black, grey and white unless you give it your company's PowerPoint theme or template (`.thmx`, `.potx` or a branded `.pptx`). Then it uses your colours and fonts, and your logo on the covers if you attach it. It does not build a theme from brand guidelines or a website: that will be Make_Colors_PPTX.
 
 * * *
 
@@ -118,6 +118,7 @@ Review my-deck.pptx and make it look professional. Keep my content.
 | A deck in French | `in French` (or write the request in French) |
 | A specific audience | `for a non-technical audience`, `for the finance team` |
 | A deck to fill in yourself | `I can't share the real content: make a skeleton I can fill in` |
+| Your company's look | `with our template brand.potx and our logo logo.png` (attach both) |
 
 Example deck made from a page of notes: [download it](https://github.com/MaximeRumpler/Make_Clean_PPTX/releases/latest), with the [notes it came from](https://github.com/MaximeRumpler/Make_Clean_PPTX/blob/main/examples/sample-content.md).
 
@@ -165,7 +166,7 @@ Say it explicitly: "Use the make-clean-pptx skill to make a deck from this." In 
 That should not happen. Tell the assistant which slide, and ask it to remove anything that is not in your content.
 
 **I want other colours, fonts or a different look.**
-Apply your company's PowerPoint theme to the deck (*Design → Themes* in PowerPoint): every colour and font follows it. Two more skills, Make_Style_PPTX and Make_Colors_PPTX, are in preparation for looks and brands.
+Attach your company's theme or template (`.thmx`, `.potx` or a branded `.pptx`) and your logo, and ask for them: every colour and font follows the theme, and the assistant warns you if some text becomes hard to read. You can also apply a theme afterwards in PowerPoint (*Design → Themes*). Two more skills, Make_Style_PPTX (other looks) and Make_Colors_PPTX (a theme built from your brand guidelines or website), are in preparation.
 
 **Still stuck?**
 Open an issue on [Make_Clean_PPTX](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues/new/choose) and pick the *It didn't work* form. It asks for your assistant, your system, what you asked and the message you got.

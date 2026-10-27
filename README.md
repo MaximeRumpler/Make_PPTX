@@ -29,7 +29,7 @@ your notes  →  Make_Clean  →  Make_Style  →  Make_Colors  →  your deck
 
 | **Make_Clean_PPTX** | **Make_Style_PPTX** | **Make_Colors_PPTX** |
 |:---|:---|:---|
-| **Form.** One message per slide, a matching design and chart from a library of 54 layouts and 68 visuals, checked before delivery. Black, grey and white. | **Look.** The same deck in another style: editorial, organic, geometric, tech, soft. Your content and layout stay as they are. | **Brand.** Your colours, fonts and logo, taken from your brand guidelines, your website or an example file, with readable contrast. |
+| **Form.** One message per slide, a matching design and chart from a library of 54 layouts and 68 visuals, checked before delivery. Black, grey and white, or your company's theme and logo. | **Look.** The same deck in another style: editorial, organic, geometric, tech, soft. Your content and layout stay as they are. | **Brand.** Your colours, fonts and logo, taken from your brand guidelines, your website or an example file, with readable contrast. |
 | [**Available**](https://github.com/MaximeRumpler/Make_Clean_PPTX) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | In preparation | In preparation |
 
 **Start with Make_Clean_PPTX**: it is all you need for a clean, professional deck, and the other two build on it.
