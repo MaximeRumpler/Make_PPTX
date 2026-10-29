@@ -80,8 +80,6 @@ Built by [**Maxime Rumpler**](https://github.com/MaximeRumpler) · [![KairosTech
 
 <p align="right">
   <img src="https://komarev.com/ghpvc/?username=MaximeRumpler&repo=Make_PPTX&color=44cc11&style=flat-square&label=views" alt="Repository Views" />
-  
 </p>
-  
-</p>
+
 </div>
