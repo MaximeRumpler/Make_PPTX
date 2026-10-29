@@ -1,13 +1,12 @@
 <div align="center">
 
-[![Make_PPTX](docs/banner.svg)](https://github.com/MaximeRumpler/Make_PPTX)
+[![Make PPTX: Make_Clean_PPTX, Make_Style_PPTX and Make_Colors_PPTX, three agent skills from your notes to a finished PowerPoint deck](docs/banner.svg)](https://github.com/MaximeRumpler/Make_PPTX)
 
-*Start with Make Clean for the structure. Add a style and your brand colours when you need them.*
+*Give your AI assistant your notes. Get back a finished PowerPoint deck, in your style and your brand colours when you need them.*
 
-[![License](https://img.shields.io/badge/License-EUPL--1.2-10B981?style=flat-square&labelColor=1C2333)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-3-10B981?style=flat-square&labelColor=1C2333)](#the-three-skills)
-[![Gallery](https://img.shields.io/badge/Gallery-122_slides-10B981?style=flat-square&labelColor=1C2333)](https://maximerumpler.github.io/Make_Clean_PPTX/)
-<br>
+[![Licence](https://img.shields.io/badge/Licence-EUPL--1.2-10B981?style=flat-square&labelColor=1C2333)](LICENSE)
+[![Skills](https://img.shields.io/badge/Skills-3-10B981?style=flat-square&labelColor=1C2333)](#the-make-pptx-set)
+[![Gallery](https://img.shields.io/badge/Gallery-135_slides-10B981?style=flat-square&labelColor=1C2333)](https://maximerumpler.github.io/Make_Clean_PPTX/)
 
 </div>
 
@@ -15,7 +14,7 @@
 
 ## What it is
 
-Make PPTX is a set of three *skills*, instructions and tools that teach an AI assistant such as Claude or Codex to make presentations. You give it your notes; you get back a PowerPoint deck built from tested slide designs and checked before delivery.
+Make PPTX is a set of three *skills*. A skill is a folder of instructions and small tools that an AI assistant such as Claude or Codex loads when you ask for a presentation. You give it your notes; you get back a PowerPoint deck built from tested slide designs and checked before delivery.
 
 Each skill does one job, and you only use the ones you need:
 
@@ -26,14 +25,16 @@ your notes  →  Make_Clean  →  Make_Style  →  Make_Colors  →  your deck
 
 * * *
 
-## The three skills
+## The Make PPTX set
 
 | **Make_Clean_PPTX** | **Make_Style_PPTX** | **Make_Colors_PPTX** |
 |:---|:---|:---|
-| **Form.** One message per slide, a matching design and chart from a library of 54 layouts and 68 visuals, checked before delivery. Black, grey and white, or your company's theme and logo. | **Look.** The same deck in another style: editorial, organic, geometric, tech, soft. Your content and layout stay as they are. | **Brand.** Your colours, fonts and logo, taken from your brand guidelines, your website or an example file, with readable contrast. |
-| [**Available**](https://github.com/MaximeRumpler/Make_Clean_PPTX) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | In preparation | In preparation |
+| **Form.** Notes in, a clean deck out: one message per slide, tested layouts and charts. | **Look.** The same deck in another style: other shapes, arrangements and backgrounds. | **Brand.** Your colours, fonts and logo, from your brand guidelines, website or example files. |
+| [Install](https://github.com/MaximeRumpler/Make_Clean_PPTX#install) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | In preparation | In preparation |
 
-**Start with Make_Clean_PPTX**: it is all you need for a clean, professional deck, and the other two build on it.
+*Start with Make_Clean_PPTX for the structure. Add a style and your brand colours when you need them.*
+
+**Available today: Make_Clean_PPTX.** 54 slide layouts, 81 charts and diagrams (19 of them opt-in), 1,900 icons. Black, grey and white, or your company's PowerPoint theme and logo. The other two build on it.
 
 * * *
 
@@ -62,13 +63,13 @@ Make a 5-slide summary of this document as a LibreOffice .odp file, with speaker
 
 ## Principles
 
-| **Your content stays yours** | **Tested slides, checked output** | **Easy for everyone** |
+| **Your content stays yours** | **Tested slides, checked output** | **Plain requests** |
 |:---|:---|:---|
-| No invented figures, quotes or names. You own the decks you make. | Slides come from tested libraries, then are checked for overflow, density and readability. | Plain requests in English or French, a short install, clear messages when something is missing. |
+| No invented figures, quotes or names. You own the decks you make. | Slides come from tested libraries, then are checked for overflow, density and readability. | Ask in English or French, in your own words. A short install, and a plain message when something is missing. |
 
 * * *
 
-## License
+## Licence
 
 [EUPL-1.2](LICENSE), the open source licence of the European Union: free to use; if you share an improved version, share it under the same licence. **You own the decks you make.** The EUPL does not apply to them and no attribution is required ([NOTICE](NOTICE)).
 
