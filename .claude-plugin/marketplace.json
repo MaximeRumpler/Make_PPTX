@@ -1,0 +1,24 @@
+{
+  "name": "make-pptx",
+  "owner": {
+    "name": "Maxime Rumpler",
+    "url": "https://github.com/MaximeRumpler"
+  },
+  "metadata": {
+    "description": "The Make PPTX skills: your notes turned into a finished PowerPoint deck. One entry per available skill."
+  },
+  "plugins": [
+    {
+      "name": "make-clean-pptx",
+      "source": {
+        "source": "github",
+        "repo": "MaximeRumpler/Make_Clean_PPTX"
+      },
+      "description": "Turns your notes into PowerPoint decks from tested slide layouts and editable charts, checked before delivery.",
+      "homepage": "https://github.com/MaximeRumpler/Make_Clean_PPTX",
+      "license": "EUPL-1.2",
+      "category": "productivity",
+      "keywords": ["pptx", "powerpoint", "presentation", "slides"]
+    }
+  ]
+}
