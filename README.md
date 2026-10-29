@@ -40,7 +40,12 @@ your notes  →  Make_Clean  →  Make_Style  →  Make_Colors  →  your deck
 
 ## Get started
 
-Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI assistants, on Windows, macOS and Linux. In Claude.ai and Claude desktop, also turn on *Code execution and file creation*.
+Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI assistants, on Windows, macOS and Linux. In Claude.ai and Claude desktop, also turn on *Code execution and file creation*. In Claude Code, the set has one marketplace:
+
+```text
+/plugin marketplace add MaximeRumpler/Make_PPTX
+/plugin install make-clean-pptx@make-pptx
+```
 
 **[Get started](docs/get-started.md)**: install for your assistant, check that it works, what to give it, the quick choices it asks about, and answers to common problems. For the best first deck, fill in the [brief template](docs/brief-template.md).
 

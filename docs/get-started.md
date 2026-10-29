@@ -25,11 +25,11 @@ Python is already there on Claude's side: you have nothing else to install.
 Type these two lines in Claude Code, one after the other:
 
 ```text
-/plugin marketplace add MaximeRumpler/Make_Clean_PPTX
-/plugin install make-clean-pptx@make-clean-pptx
+/plugin marketplace add MaximeRumpler/Make_PPTX
+/plugin install make-clean-pptx@make-pptx
 ```
 
-Then restart Claude Code.
+Then restart Claude Code. The first line adds `make-pptx`, the marketplace of the Make PPTX set. If you installed earlier with `/plugin marketplace add MaximeRumpler/Make_Clean_PPTX`, nothing changes: that still works.
 
 ### Codex, Cursor, GitHub Copilot, Gemini CLI and others
 
@@ -42,7 +42,7 @@ Then restart Claude Code.
 
 These assistants run the skill on your own computer, so it needs [Python](https://www.python.org/downloads/) 3.9 or newer. Most computers have it; the next step tells you if yours does not.
 
-**Updating later:** in Claude Code, `/plugin marketplace update MaximeRumpler/Make_Clean_PPTX`; in Claude.ai, upload the new zip; elsewhere, run the `npx skills add` line again.
+**Updating later:** in Claude Code, `/plugin marketplace update make-pptx` (or `make-clean-pptx` if you installed earlier); in Claude.ai, upload the new zip; elsewhere, run the `npx skills add` line again.
 
 * * *
 
