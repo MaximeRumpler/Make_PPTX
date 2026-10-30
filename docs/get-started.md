@@ -2,7 +2,7 @@
 
 Make a clean PowerPoint deck from your own notes, with the AI assistant you already use. No coding needed.
 
-This page covers **Make_Clean_PPTX**, the skill of the set that is available today. Make_Style_PPTX (another style for the same deck) and Make_Colors_PPTX (your brand's colours, fonts and logo) are in preparation.
+This page covers **Make_Clean_PPTX**, the skill that makes the deck. The two others, Make_Style_PPTX (another style for the same deck) and Make_Colors_PPTX (your brand's colours, fonts and logo), are in preview: see [Add a style or your brand](#add-a-style-or-your-brand-preview) at the end of step 1.
 
 **On this page:** [Install](#1-install) · [Check](#2-check-that-it-works) · [What to give it](#3-what-to-give-it) · [Requests to copy](#4-requests-to-copy) · [The quick choices](#5-the-quick-choices-it-asks-about) · [Questions](#6-questions-and-problems)
 
@@ -44,6 +44,17 @@ These assistants run the skill on your own computer, so it needs [Python](https:
 
 **Updating later:** in Claude Code, `/plugin marketplace update make-pptx` (or `make-clean-pptx` if you installed earlier); in Claude.ai, upload the new zip; elsewhere, run the `npx skills add` line again.
 
+### Add a style or your brand (preview)
+
+Make_Style_PPTX and Make_Colors_PPTX work on a deck that Make_Clean_PPTX made, or on one you give them. They install the same way, without a Claude.ai zip until their first release:
+
+```text
+/plugin install make-style-pptx@make-pptx
+/plugin install make-colors-pptx@make-pptx
+```
+
+In other assistants: `npx skills add MaximeRumpler/Make_Style_PPTX` and `npx skills add MaximeRumpler/Make_Colors_PPTX`. Then ask, for example: "Give this deck the organic style" or "Put this deck in our colours, here is our logo".
+
 * * *
 
 ## 2. Check that it works
@@ -78,7 +89,7 @@ Paste the text into the chat or attach the file. The more of your own content it
 - **Invent figures, quotes or names.** If a slide needs a number you did not give, it picks a text slide instead, or asks you. Check any figure it flags in its final message.
 - **Write the deck from a topic alone.** With only "a deck about our new product", it asks for the key points rather than making them up.
 - **Overwrite your file.** When it reviews a deck, it saves the new one next to it, as `<name>-clean.pptx`.
-- **Make up your brand.** The slides are black, grey and white unless you give it your company's PowerPoint theme or template (`.thmx`, `.potx` or a branded `.pptx`). Then it uses your colours and fonts, and your logo on the covers if you attach it. It does not build a theme from brand guidelines or a website: Make_Colors_PPTX, in preparation, is for that.
+- **Make up your brand.** The slides are black, grey and white unless you give it your company's PowerPoint theme or template (`.thmx`, `.potx` or a branded `.pptx`). Then it uses your colours and fonts, and your logo on the covers if you attach it. It does not build a theme from brand guidelines or a website: [Make_Colors_PPTX](https://github.com/MaximeRumpler/Make_Colors_PPTX) does that.
 
 * * *
 
@@ -177,7 +188,7 @@ Say it explicitly: "Use the make-clean-pptx skill to make a deck from this." In 
 That should not happen. Tell the assistant which slide, and ask it to remove anything that is not in your content.
 
 **I want other colours, fonts or a different look.**
-Attach your company's theme or template (`.thmx`, `.potx` or a branded `.pptx`) and your logo, and ask for them: every colour and font follows the theme, and the assistant warns you if some text becomes hard to read. You can also apply a theme afterwards in PowerPoint (*Design → Themes*). Two more skills are in preparation: Make_Style_PPTX (the same deck in another style) and Make_Colors_PPTX (your colours, fonts and logo from your brand guidelines, website or example files).
+Attach your company's theme or template (`.thmx`, `.potx` or a branded `.pptx`) and your logo, and ask for them: every colour and font follows the theme, and the assistant warns you if some text becomes hard to read. You can also apply a theme afterwards in PowerPoint (*Design → Themes*). For a theme built from your brand guidelines, website or example files, use [Make_Colors_PPTX](https://github.com/MaximeRumpler/Make_Colors_PPTX); for other shapes and layouts with the same content, [Make_Style_PPTX](https://github.com/MaximeRumpler/Make_Style_PPTX). Both are in preview ([install](#add-a-style-or-your-brand-preview)).
 
 **My content is confidential. Can I still use the skill?**
 Yes: give only the structure of the deck and type the content yourself afterwards. See [Private mode](private-mode.md), which also explains offline use.

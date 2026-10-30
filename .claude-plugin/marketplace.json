@@ -19,6 +19,30 @@
       "license": "EUPL-1.2",
       "category": "productivity",
       "keywords": ["pptx", "powerpoint", "presentation", "slides"]
+    },
+    {
+      "name": "make-style-pptx",
+      "source": {
+        "source": "github",
+        "repo": "MaximeRumpler/Make_Style_PPTX"
+      },
+      "description": "Gives a clean deck another look: new card shapes, staggered or arced layouts and quiet backgrounds, with the same content. Preview.",
+      "homepage": "https://github.com/MaximeRumpler/Make_Style_PPTX",
+      "license": "EUPL-1.2",
+      "category": "productivity",
+      "keywords": ["pptx", "powerpoint", "presentation", "slides", "style"]
+    },
+    {
+      "name": "make-colors-pptx",
+      "source": {
+        "source": "github",
+        "repo": "MaximeRumpler/Make_Colors_PPTX"
+      },
+      "description": "Turns your brand guidelines, website, example files or logo into a readable PowerPoint theme and applies it to a deck. Preview.",
+      "homepage": "https://github.com/MaximeRumpler/Make_Colors_PPTX",
+      "license": "EUPL-1.2",
+      "category": "productivity",
+      "keywords": ["pptx", "powerpoint", "presentation", "theme", "brand"]
     }
   ]
 }
