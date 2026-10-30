@@ -30,21 +30,23 @@ your notes  →  Make_Clean  →  Make_Style  →  Make_Colors  →  your deck
 | **Make_Clean_PPTX** | **Make_Style_PPTX** | **Make_Colors_PPTX** |
 |:---|:---|:---|
 | **Form.** Notes in, a clean deck out: one message per slide, tested layouts and charts. | **Look.** The same deck in another style: other shapes, arrangements and backgrounds. | **Brand.** Your colours, fonts and logo, from your brand guidelines, website or example files. |
-| [Install](https://github.com/MaximeRumpler/Make_Clean_PPTX#install) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | In preparation | In preparation |
+| [Install](https://github.com/MaximeRumpler/Make_Clean_PPTX#install) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | Preview · [Install](https://github.com/MaximeRumpler/Make_Style_PPTX#install) | Preview · [Install](https://github.com/MaximeRumpler/Make_Colors_PPTX#install) |
 
 *Start with Make_Clean_PPTX for the structure. Add a style and your brand colours when you need them.*
 
-**Available today: Make_Clean_PPTX.** 54 slide layouts, 81 charts and diagrams (19 of them opt-in), 1,900 icons. Black, grey and white, or your company's PowerPoint theme and logo. The other two build on it.
+**Make_Clean_PPTX** (v1.2.0): 54 slide layouts, 81 charts and diagrams (19 of them opt-in), 1,900 icons. Black, grey and white, or your company's PowerPoint theme and logo.<br>**Make_Style_PPTX** (preview): two styles, *organic* and *paper*: new card shapes, staggered or arced layouts, quiet backgrounds.<br>**Make_Colors_PPTX** (preview): a PowerPoint theme with your three or four brand colours, fonts and logo, checked for readability.
 
 * * *
 
 ## Get started
 
-Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI assistants, on Windows, macOS and Linux. In Claude.ai and Claude desktop, also turn on *Code execution and file creation*. In Claude Code, the set has one marketplace:
+Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and other AI assistants, on Windows, macOS and Linux. In Claude.ai and Claude desktop, also turn on *Code execution and file creation*. In Claude Code, the set has one marketplace for the three skills:
 
 ```text
 /plugin marketplace add MaximeRumpler/Make_PPTX
 /plugin install make-clean-pptx@make-pptx
+/plugin install make-style-pptx@make-pptx    # optional, preview
+/plugin install make-colors-pptx@make-pptx   # optional, preview
 ```
 
 **[Get started](docs/get-started.md)**: install for your assistant, check that it works, what to give it, the quick choices it asks about, and answers to common problems. For the best first deck, fill in the [brief template](docs/brief-template.md).
