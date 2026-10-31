@@ -19,7 +19,7 @@ Make PPTX is a set of three *skills*. A skill is a folder of instructions and sm
 Each skill does one job, and you only use the ones you need:
 
 <p align="center">
-  <img src="https://github.com/MaximeRumpler/MaximeRumpler/tree/main/assets/Make_PPT_flow.svg" alt="Make PowerPoint Flow" width="100%" />
+  <img src="assets/Make_PPT_flow.svg" alt="Make PowerPoint Flow" width="100%" />
 </p>
 
 * * *
