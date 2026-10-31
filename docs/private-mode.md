@@ -55,3 +55,5 @@ The skill's own tools can work without any internet connection: with `--offline`
 Offline here means the skill. Your AI assistant itself still needs its usual connection, and whatever you type in the chat goes to it. In Claude.ai and Claude desktop the tools run on Claude's side; in Claude Code, Codex, Cursor, Copilot and Gemini CLI they run on your computer.
 
 [Back to Get started](get-started.md)
+
+[[Make_Clean_PPTX]]

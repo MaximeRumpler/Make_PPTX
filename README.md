@@ -18,10 +18,9 @@ Make PPTX is a set of three *skills*. A skill is a folder of instructions and sm
 
 Each skill does one job, and you only use the ones you need:
 
-```text
-your notes  →  Make_Clean  →  Make_Style  →  Make_Colors  →  your deck
-               form           look           brand
-```
+<p align="center">
+  <img src="https://github.com/MaximeRumpler/MaximeRumpler/tree/main/assets/Make_PPT_flow.svg" alt="Make PowerPoint Flow" width="100%" />
+</p>
 
 * * *
 
@@ -91,3 +90,5 @@ Built by [**Maxime Rumpler**](https://github.com/MaximeRumpler) · [![KairosTech
 </p>
 
 </div>
+
+[[Make_Clean_PPTX]]

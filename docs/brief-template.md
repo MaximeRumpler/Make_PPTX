@@ -52,3 +52,5 @@ My content:
 - **"Parts" are not slides.** Three parts may give six slides; the skill splits them so each slide carries one message.
 - **Slides stay short.** Details that do not fit a slide go to the speaker notes, so nothing you gave is lost.
 - **Can't share the content?** Choose *I can't share the real content* and describe the structure instead ("slide 3: one key figure"). You get a skeleton to fill in yourself.
+
+[[Make_Clean_PPTX]]

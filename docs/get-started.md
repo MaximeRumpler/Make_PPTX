@@ -195,3 +195,5 @@ Yes: give only the structure of the deck and type the content yourself afterward
 
 **Still stuck?**
 Open an issue on [Make_Clean_PPTX](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues/new/choose) and pick the *It didn't work* form. It asks for your assistant, your system, what you asked and the message you got.
+
+[[Make_Clean_PPTX]]
