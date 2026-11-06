@@ -11,8 +11,8 @@
 <meta property="og:title" content="Make PPTX: notes in, a clean, styled, branded PowerPoint deck out">
 <meta property="og:description" content="Three free skills for AI assistants. One builds the deck, one changes its look, one puts on your brand. Use one or all three.">
 <meta property="og:url" content="https://maximerumpler.github.io/Make_PPTX/">
-<meta property="og:image" content="https://maximerumpler.github.io/Make_PPTX/img/colors.jpg">
-<meta property="og:image:alt" content="The same six slides in neutral greys and then in a brand theme">
+<meta property="og:image" content="https://maximerumpler.github.io/Make_PPTX/img/hero.jpg">
+<meta property="og:image:alt" content="Four slides in a teal, orange and yellow brand theme">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
@@ -73,6 +73,8 @@
   .row:first-of-type { margin-top: 0; }
   @media (min-width: 900px) { .row { grid-template-columns: 1fr 1fr; } .row.flip img { order: 2; } }
   .row img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+  .row.wide { grid-template-columns: 1fr; }
+  @media (min-width: 900px) { .row.wide { grid-template-columns: 1fr; } }
   .row p { margin: 0 0 12px; color: var(--ink2); max-width: 48ch; }
   .row .tag { color: var(--muted); font-size: 14px; font-weight: 600; margin-bottom: 4px; display: block; }
   .links a { color: var(--accent-text); font-weight: 600; text-underline-offset: 3px; margin-right: 18px; }
@@ -109,7 +111,7 @@
       </div>
       <p class="small">Free and open source (EUPL-1.2). Your decks are yours. No invented numbers.</p>
     </div>
-    <img src="img/colors.jpg" width="1400" height="1221" alt="The same six slides twice: first in neutral greys, then in a navy and orange brand theme">
+    <img src="img/hero.jpg" width="1414" height="800" alt="Four slides of a sample annual review in a teal, orange and yellow brand: a dark cover, a waterfall chart, four coloured cards and a recommended option">
   </div>
 </header>
 
@@ -139,14 +141,14 @@
       </div>
     </div>
 
-    <div class="row">
-      <img src="img/colors-after.jpg" width="1400" height="610" loading="lazy" alt="Six slides in a sample brand theme: navy, orange and a serif heading font">
+    <div class="row wide">
       <div>
         <span class="tag">Brand · preview</span>
         <h3>Make_Colors_PPTX</h3>
-        <p>Your three or four brand colours, fonts and logo, taken from brand guidelines, a website or example files, as a real PowerPoint theme. It checks that text stays readable, also in greyscale and for colour-blind readers.</p>
+        <p>Your three or four brand colours, fonts and logo, taken from brand guidelines, a website or example files, as a real PowerPoint theme. Cards, charts and covers take the colours, and it checks that text stays readable, also in greyscale and for colour-blind readers.</p>
         <p class="links"><a href="https://github.com/MaximeRumpler/Make_Colors_PPTX#readme">How it works</a><a href="https://github.com/MaximeRumpler/Make_Colors_PPTX#install">Install</a></p>
       </div>
+      <img src="img/colors.jpg" width="1800" height="621" loading="lazy" alt="The same four slides twice: neutral black and grey on top, the same slides in a made-up teal, orange and yellow brand below">
     </div>
   </div>
 </section>
