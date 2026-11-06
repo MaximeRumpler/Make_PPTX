@@ -48,6 +48,8 @@ Make_Clean_PPTX installs in a few steps in Claude.ai, Claude desktop, Claude Cod
 /plugin install make-colors-pptx@make-pptx   # optional, preview
 ```
 
+In a terminal or script, the same steps are `claude plugin marketplace add MaximeRumpler/Make_PPTX` and `claude plugin install make-clean-pptx@make-pptx` (one install line per skill).
+
 **[Get started](docs/get-started.md)**: install for your assistant, check that it works, what to give it, the quick choices it asks about, and answers to common problems. For the best first deck, fill in the [brief template](docs/brief-template.md).
 
 Something did not work? [Open an issue](https://github.com/MaximeRumpler/Make_Clean_PPTX/issues/new/choose) with the *It didn't work* form: no technical knowledge needed.
