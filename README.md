@@ -33,7 +33,7 @@ Each skill does one job, and you only use the ones you need:
 
 *Start with Make_Clean_PPTX for the structure. Add a style and your brand colours when you need them.*
 
-**Make_Clean_PPTX** (v1.3): 54 slide layouts, 81 charts and diagrams (19 of them opt-in), 1,900 icons, readable text sizes (16 pt body, 12 pt minimum) and a clean folder at the end: only your deck stays. Black, grey and white, or your company's PowerPoint theme and logo.<br>**Make_Style_PPTX** (preview): two styles, *organic* and *paper*: new card shapes, staggered or arced layouts, quiet backgrounds, and a report of how many slides changed.<br>**Make_Colors_PPTX** (preview): a PowerPoint theme with your three or four brand colours, fonts and logo, checked for readability, with an optional expressive mode that spreads the colours over the cards.
+**Make_Clean_PPTX** (v1.4): 54 slide layouts, 81 charts and diagrams (19 of them opt-in), 1,900 icons, readable text sizes (16 pt body, 12 pt minimum) and a clean folder at the end: only your deck stays. Black, grey and white, or your company's PowerPoint theme and logo.<br>**Make_Style_PPTX** (preview): two styles, *organic* and *paper*: new card shapes, staggered or arced layouts, quiet backgrounds, and a report of how many slides changed.<br>**Make_Colors_PPTX** (preview): a PowerPoint theme with your three or four brand colours, fonts and logo, checked for readability, with an optional expressive mode that spreads the colours over the cards.
 
 * * *
 
