@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Make PPTX: three free skills that turn notes into a styled, branded PowerPoint deck</title>
+<meta name="description" content="Make PPTX is a set of three free skills for AI assistants such as Claude, Codex, Cursor and Copilot: Make_Clean_PPTX builds the deck, Make_Style_PPTX changes its look, Make_Colors_PPTX puts on your brand colours, fonts and logo.">
+<link rel="canonical" href="https://maximerumpler.github.io/Make_PPTX/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Make PPTX">
+<meta property="og:title" content="Make PPTX: notes in, a clean, styled, branded PowerPoint deck out">
+<meta property="og:description" content="Three free skills for AI assistants. One builds the deck, one changes its look, one puts on your brand. Use one or all three.">
+<meta property="og:url" content="https://maximerumpler.github.io/Make_PPTX/">
+<meta property="og:image" content="https://maximerumpler.github.io/Make_PPTX/img/colors.jpg">
+<meta property="og:image:alt" content="The same six slides in neutral greys and then in a brand theme">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Make PPTX",
+  "url": "https://maximerumpler.github.io/Make_PPTX/",
+  "description": "Three free agent skills that turn notes into PowerPoint decks: structure, look and brand colours.",
+  "inLanguage": "en",
+  "author": { "@type": "Person", "name": "Maxime Rumpler", "url": "https://github.com/MaximeRumpler" },
+  "publisher": { "@type": "Organization", "name": "KairosTech", "url": "https://kairostech.fr" }
+}
+</script>
+<style>
+  :root {
+    --bg: #F7F7F5; --card: #FFFFFF; --ink: #111111; --ink2: #404040; --muted: #666666; --line: #E3E3E0;
+    --accent: #10B981; --accent-text: #047857; --navy: #1C2333; --chip: #EFEFEC;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #11151F; --card: #1A2030; --ink: #F2F2F2; --ink2: #C9CDD6; --muted: #8E96A8; --line: #2A3245; --chip: #222A3C; --accent-text: #34D399; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 Inter, "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif; }
+  a { color: inherit; }
+  ::selection { background: color-mix(in srgb, var(--accent) 35%, transparent); }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent-text); outline-offset: 3px; border-radius: 4px; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+  .skip { position: absolute; left: -999px; top: 8px; background: var(--card); color: var(--ink); padding: 10px 14px; border-radius: 8px; z-index: 20; }
+  .skip:focus { left: 12px; }
+
+  header { background: var(--navy); color: #fff; }
+  header a:focus-visible { outline-color: #34D399; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 18px; padding-bottom: 6px; }
+  .wordmark { font-weight: 700; letter-spacing: -.01em; text-decoration: none; font-size: 15px; }
+  .top nav { display: flex; gap: 18px; }
+  .top nav a { color: #C3CADA; text-decoration: none; font-size: 14px; padding: 10px 0; }
+  .top a:hover { color: #fff; text-decoration: underline; text-underline-offset: 4px; }
+  .hero { display: grid; gap: 32px 56px; align-items: center; padding-top: 28px; padding-bottom: 60px; }
+  @media (min-width: 960px) { .hero { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); } }
+  h1 { margin: 0; font-size: clamp(30px, 4.4vw, 48px); line-height: 1.08; letter-spacing: -.025em; }
+  h1 span { display: block; }
+  .lede { margin: 18px 0 0; color: #C3CADA; max-width: 52ch; font-size: 17px; }
+  .cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 28px; }
+  .btn { background: var(--accent); color: #04281C; font-weight: 700; font-size: 16px; text-decoration: none; padding: 13px 24px; border-radius: 10px; }
+  .btn:hover { background: #34D399; }
+  .textlink { color: #fff; font-weight: 600; text-underline-offset: 4px; padding: 12px 0; }
+  .small { margin: 18px 0 0; color: #AEB6C6; font-size: 13.5px; }
+  .hero img { width: 100%; height: auto; max-height: 520px; object-fit: cover; object-position: top; border-radius: 14px; box-shadow: 0 18px 50px rgba(0,0,0,.35); background: #fff; }
+
+  section { border-bottom: 1px solid var(--line); }
+  section .wrap { padding-top: 64px; padding-bottom: 64px; }
+  h2 { margin: 0 0 10px; font-size: clamp(24px, 3vw, 32px); line-height: 1.15; letter-spacing: -.02em; text-wrap: balance; }
+  h3 { margin: 0 0 8px; font-size: 22px; letter-spacing: -.015em; }
+  .intro { margin: 0 0 40px; color: var(--ink2); max-width: 62ch; font-size: 17px; }
+  .row { display: grid; gap: 28px 56px; align-items: center; margin-top: 56px; }
+  .row:first-of-type { margin-top: 0; }
+  @media (min-width: 900px) { .row { grid-template-columns: 1fr 1fr; } .row.flip img { order: 2; } }
+  .row img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+  .row p { margin: 0 0 12px; color: var(--ink2); max-width: 48ch; }
+  .row .tag { color: var(--muted); font-size: 14px; font-weight: 600; margin-bottom: 4px; display: block; }
+  .links a { color: var(--accent-text); font-weight: 600; text-underline-offset: 3px; margin-right: 18px; }
+  .alt { background: var(--card); }
+  .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 36px 48px; }
+  .cols p { margin: 0 0 10px; color: var(--ink2); }
+  code { font: 13px/1.6 "SFMono-Regular", Consolas, "Liberation Mono", monospace; background: var(--chip); padding: 2px 6px; border-radius: 6px; overflow-wrap: anywhere; }
+  .cols a { color: var(--accent-text); font-weight: 600; text-underline-offset: 3px; }
+  details { margin-top: 12px; color: var(--ink2); }
+  summary { cursor: pointer; font-weight: 600; }
+  footer { color: var(--muted); font-size: 13px; }
+  footer .wrap { padding-top: 24px; padding-bottom: 32px; display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: space-between; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#skills">Skip to the three skills</a>
+<header>
+  <div class="wrap top">
+    <a class="wordmark" href="#">Make PPTX</a>
+    <nav aria-label="Project links">
+      <a href="#install">Install</a>
+      <a href="https://github.com/MaximeRumpler/Make_PPTX/blob/main/docs/get-started.md">Get started</a>
+      <a href="https://github.com/MaximeRumpler/Make_PPTX">GitHub</a>
+    </nav>
+  </div>
+  <div class="wrap hero">
+    <div>
+      <h1><span>Notes in.</span> <span>A deck in your look and your colours out.</span></h1>
+      <p class="lede">Three free skills for AI assistants such as Claude, Codex, Cursor and Copilot. One builds a clean PowerPoint deck from your notes, one changes its look, one puts on your brand. Use one, or all three.</p>
+      <div class="cta">
+        <a class="btn" href="#install">Install the skills</a>
+        <a class="textlink" href="#skills">See what each one does</a>
+      </div>
+      <p class="small">Free and open source (EUPL-1.2). Your decks are yours. No invented numbers.</p>
+    </div>
+    <img src="img/colors.jpg" width="1400" height="1221" alt="The same six slides twice: first in neutral greys, then in a navy and orange brand theme">
+  </div>
+</header>
+
+<main>
+<section id="skills" aria-labelledby="skills-h">
+  <div class="wrap">
+    <h2 id="skills-h">One deck, three steps. Each one is optional.</h2>
+    <p class="intro">Every skill works alone, and each one writes a copy next to your file, never over it. Start with the first and add the others when you want them.</p>
+
+    <div class="row">
+      <img src="img/clean.jpg" width="1316" height="764" loading="lazy" alt="Sample slides built by Make_Clean_PPTX in black, grey and white">
+      <div>
+        <span class="tag">Form</span>
+        <h3>Make_Clean_PPTX</h3>
+        <p>Give it your notes, a report or an outline. It plans one message per slide, picks from 54 slide designs and 81 charts and diagrams, fills them with your content and checks the file. The result is neutral on purpose, so the next two steps have something clean to work on.</p>
+        <p class="links"><a href="https://maximerumpler.github.io/Make_Clean_PPTX/">Browse the designs</a><a href="https://github.com/MaximeRumpler/Make_Clean_PPTX#install">Install</a></p>
+      </div>
+    </div>
+
+    <div class="row flip">
+      <img src="img/style.jpg" width="1400" height="862" loading="lazy" alt="The same three slides shown in several styles: soft pebbles, paper cards, staggered columns">
+      <div>
+        <span class="tag">Look · preview</span>
+        <h3>Make_Style_PPTX</h3>
+        <p>The same deck in another style: rounder or paper-like shapes, items staggered or arced instead of a plain grid, quiet backgrounds. Eighteen styles to choose from, or describe a mood and it drafts one.</p>
+        <p class="links"><a href="https://github.com/MaximeRumpler/Make_Style_PPTX/blob/main/docs/gallery/gallery.md">See the eighteen styles</a><a href="https://github.com/MaximeRumpler/Make_Style_PPTX#install">Install</a></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="img/colors-after.jpg" width="1400" height="610" loading="lazy" alt="Six slides in a sample brand theme: navy, orange and a serif heading font">
+      <div>
+        <span class="tag">Brand · preview</span>
+        <h3>Make_Colors_PPTX</h3>
+        <p>Your three or four brand colours, fonts and logo, taken from brand guidelines, a website or example files, as a real PowerPoint theme. It checks that text stays readable, also in greyscale and for colour-blind readers.</p>
+        <p class="links"><a href="https://github.com/MaximeRumpler/Make_Colors_PPTX#readme">How it works</a><a href="https://github.com/MaximeRumpler/Make_Colors_PPTX#install">Install</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="install" aria-labelledby="install-h">
+  <div class="wrap">
+    <h2 id="install-h">Install</h2>
+    <p class="intro">Pick the line for the assistant you use. Add the second and third skill later in the same way.</p>
+    <div class="cols">
+      <div>
+        <h3>Claude.ai or Claude desktop</h3>
+        <p>Download the zip, turn on <em>Code execution and file creation</em> in <em>Settings → Capabilities</em>, then upload it under <em>Skills</em>.</p>
+        <p><a href="https://github.com/MaximeRumpler/Make_Clean_PPTX/releases/latest/download/make-clean-pptx.zip">make-clean-pptx.zip</a><br>
+        <a href="https://github.com/MaximeRumpler/Make_Style_PPTX/releases/latest/download/make-style-pptx.zip">make-style-pptx.zip</a><br>
+        <a href="https://github.com/MaximeRumpler/Make_Colors_PPTX/releases/latest/download/make-colors-pptx.zip">make-colors-pptx.zip</a></p>
+      </div>
+      <div>
+        <h3>Claude Code</h3>
+        <p>One marketplace lists the three skills:</p>
+        <p><code>/plugin marketplace add MaximeRumpler/Make_PPTX</code></p>
+        <p><code>/plugin install make-clean-pptx@make-pptx</code></p>
+        <details><summary>The other two, and the terminal version</summary>
+          <p><code>/plugin install make-style-pptx@make-pptx</code></p>
+          <p><code>/plugin install make-colors-pptx@make-pptx</code></p>
+          <p>In a terminal or a script, use <code>claude plugin marketplace add …</code> and <code>claude plugin install …</code> with the same names.</p>
+        </details>
+      </div>
+      <div>
+        <h3>Codex, Cursor, Copilot, Gemini CLI</h3>
+        <p>Needs <a href="https://nodejs.org">Node.js</a>. It asks which assistant you use.</p>
+        <p><code>npx skills add MaximeRumpler/Make_Clean_PPTX</code></p>
+        <details><summary>The other two</summary>
+          <p><code>npx skills add MaximeRumpler/Make_Style_PPTX</code></p>
+          <p><code>npx skills add MaximeRumpler/Make_Colors_PPTX</code></p>
+        </details>
+      </div>
+    </div>
+    <p class="intro" style="margin-top:40px">New to skills? The <a href="https://github.com/MaximeRumpler/Make_PPTX/blob/main/docs/get-started.md">get started guide</a> covers install, a first request to copy, and common problems. Content you cannot share: <a href="https://github.com/MaximeRumpler/Make_PPTX/blob/main/docs/private-mode.md">private mode</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Built by <a href="https://github.com/MaximeRumpler">Maxime Rumpler</a> · <a href="https://github.com/KairosTech-fr">KairosTech</a> · <a href="https://kairostech.fr">kairostech.fr</a></span>
+    <span>EUPL-1.2 · your decks are yours</span>
+    <span>Inspired by <a href="https://github.com/pbakaus/impeccable">impeccable</a> and Wikipedia's <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing">Signs of AI writing</a>, with thanks to their creators and contributors</span>
+  </div>
+</footer>
+</body>
+</html>
