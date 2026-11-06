@@ -164,7 +164,7 @@ These options help you prepare a deck. They are not a certification: the skill n
 ## 6. Questions and problems
 
 **Where is my file?**
-The assistant gives the full path in its last message. In Claude.ai and Claude desktop, the file appears in the chat with a download button. In the other assistants, it is in the folder you were working in, often under `build/`.
+The assistant gives the full path in its last message. In Claude.ai and Claude desktop, the file appears in the chat with a download button. In the other assistants, it is in the folder you were working in, next to the file you gave it or in the folder you were working in. Only the deck is left there: the working files are deleted at the end.
 
 **How do I open a `.pptx`?**
 Double-click it if you have PowerPoint or LibreOffice. On a Mac, Keynote opens it. Without either, upload it to Google Slides (*File → Import slides*) or open it with the free [LibreOffice](https://www.libreoffice.org).
