@@ -29,7 +29,7 @@ Each skill does one job, and you only use the ones you need:
 | **Make_Clean_PPTX** | **Make_Style_PPTX** | **Make_Colors_PPTX** |
 |:---|:---|:---|
 | **Form.** Notes in, a clean deck out: one message per slide, tested layouts and charts. | **Look.** The same deck in another style: other shapes, arrangements and backgrounds. | **Brand.** Your colours, fonts and logo, from your brand guidelines, website or example files. |
-| [Install](https://github.com/MaximeRumpler/Make_Clean_PPTX#install) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | Preview · [Install](https://github.com/MaximeRumpler/Make_Style_PPTX#install) | Preview · [Install](https://github.com/MaximeRumpler/Make_Colors_PPTX#install) |
+| [Install](https://github.com/MaximeRumpler/Make_Clean_PPTX#install) · [Gallery](https://maximerumpler.github.io/Make_Clean_PPTX/) | [Gallery](https://github.com/MaximeRumpler/Make_Style_PPTX/blob/main/docs/gallery/gallery.md) · [Install](https://github.com/MaximeRumpler/Make_Style_PPTX#install) | [Example](https://github.com/MaximeRumpler/Make_Colors_PPTX/blob/main/docs/before-after.png) · [Install](https://github.com/MaximeRumpler/Make_Colors_PPTX#install) |
 
 *Start with Make_Clean_PPTX for the structure. Add a style and your brand colours when you need them.*
 
