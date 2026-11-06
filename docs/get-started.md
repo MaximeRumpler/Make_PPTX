@@ -29,7 +29,7 @@ Type these two lines in Claude Code, one after the other:
 /plugin install make-clean-pptx@make-pptx
 ```
 
-Then restart Claude Code. The first line adds `make-pptx`, the marketplace of the Make PPTX set. If you installed earlier with `/plugin marketplace add MaximeRumpler/Make_Clean_PPTX`, nothing changes: that still works.
+Then restart Claude Code. No slash commands in your setup (an automated session, a script)? The same two steps work from a terminal: `claude plugin marketplace add MaximeRumpler/Make_PPTX`, then `claude plugin install make-clean-pptx@make-pptx`. The first line adds `make-pptx`, the marketplace of the Make PPTX set. If you installed earlier with `/plugin marketplace add MaximeRumpler/Make_Clean_PPTX`, nothing changes: that still works.
 
 ### Codex, Cursor, GitHub Copilot, Gemini CLI and others
 
@@ -173,7 +173,7 @@ Double-click it if you have PowerPoint or LibreOffice. On a Mac, Keynote opens i
 Only for Claude Code, Codex, Cursor, Copilot and Gemini CLI. Install Python 3.9 or newer from [python.org](https://www.python.org/downloads/) (on Windows, tick *Add Python to PATH* during setup), restart your assistant, and ask again.
 
 **It says some Python packages are missing.**
-Ask it to run the doctor script with `--fix` (see [step 2](#2-check-that-it-works)). If that fails, it tells you the one command to run.
+Ask it to run the doctor script with `--fix` (see [step 2](#2-check-that-it-works)). On systems that refuse `pip install` ("externally managed environment": recent Ubuntu, Debian, Fedora, Homebrew), the doctor sets up a private Python folder for the skill instead and leaves your system Python alone; the skill uses it by itself. If that fails too, it tells you the one command to run. For Make_Style_PPTX and Make_Colors_PPTX, `python3 scripts/_env.py --setup` in the skill folder does the same.
 
 **It says the visual check was skipped.**
 That is fine: the deck is built and checked for text that overflows. The extra check, which looks at each slide as an image, needs LibreOffice on your computer. It is optional. To turn it on, install [LibreOffice](https://www.libreoffice.org) (and on Linux or macOS, poppler, as the message says).
